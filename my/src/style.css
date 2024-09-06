@@ -77,6 +77,8 @@
     display: table;
   }
   
+
+
   .status {
     margin-bottom: 10px;
   }
@@ -86,6 +88,6 @@
   }
   
   .game-info {
-    margin-left: 20px;
+    margin-left: 60px;
   }
   

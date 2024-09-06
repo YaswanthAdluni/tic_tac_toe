@@ -99,11 +99,11 @@ export default function Game(){
   });
 
   return(
-    <div className= "Game">
-      <div className = "GameBoard">
+    <div className= "game">
+      <div className = "game_board">
         <Board xIsNext = {xIsNext} squares={currentSquares}  onPlay ={HandlePlay} />
       </div>
-      <div className = "Game-Info">{moves}</div>
+      <div className = "game-info"> {moves}  </div>
     </div>
   )
 
